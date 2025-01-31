@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪物猎人：世界 狩猎指南</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            line-height: 1.8;
+            color: #fff;
+            background: url('https://github.com/ZYFX-hkx/-/blob/main/ecce39591d3411da7fb6338a6332ebe75c885100.jpg?raw=true') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 5px 20px; 
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2em;
+            color: #FFD700;
+            text-shadow: 1px 1px 5px #000;
+            margin: 0; 
+        }
+        nav {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            margin-top: 10px;
+        }
+        nav ul {
+            display: flex; 
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px; 
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+        .container {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            padding-top: 70px; 
+        }
+        h2, h3 {
+            font-size: 1.6em;
+            color: #FFD700;
+            text-shadow: 1px 1px 5px #000;
+            margin: 20px 0;
+        }
+        p, ul, ol, dl {
+            margin: 10px 0 20px;
+            line-height: 1.6;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        mark {
+            background-color: #FFD700;
+            color: #000;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        abbr {
+            border-bottom: 1px dotted #FFD700;
+            cursor: help;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background: #FFA500;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #ccc;
+        }
+
+        html {
+            scroll-behavior: smooth; /* 添加平滑滚动效果 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>怪物猎人：世界</h1>
+        <nav>
+            <ul>
+                <li><a href="#monsters">主要怪物</a></li>
+                <li><a href="#equipment">装备推荐</a></li>
+                <li><a href="#tips">狩猎技巧</a></li>
+                <li><a href="#join">加入行动</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- 引导部分 -->
+        <section id="intro">
+            <h2>🎮 欢迎加入狩猎行动</h2>
+            <p>欢迎来到《<em>Monster Hunter: World</em>》的冒险世界！作为一名猎人，你将面对各种<mark>强大的怪物</mark>，挑战自我极限！</p>
+        </section>
+
+        <!-- 主要怪物介绍 -->
+        <section id="monsters">
+            <h2>🦖 主要怪物介绍</h2>
+            <ul>
+                <li><strong>雄火龙</strong>：<mark>飞龙之王</mark>，擅长空中攻击。</li>
+                <li><strong>灭尽龙</strong>：以古龙为食的古龙<em>古龙</em>种，攻击凶猛无比。</li>
+                <li><strong>尸套龙</strong>：操控瘴气的<abbr title="Elder Dragon">古龙</abbr>，闻风丧胆，扮演生态循环的分解者。</li>
+            </ul>
+        </section>
+
+        <!-- 装备推荐 -->
+        <section id="equipment">
+            <h2>⚔️ 猎人装备推荐</h2>
+            <ol>
+                <li>龙骨大剑：适合新手的高输出武器。</li>
+                <li>毒妖鸟套装：<mark>抗毒能力</mark>强，对抗毒属性怪物必备。</li>
+                <li>灭尽刃斧：专为进攻狂人设计。</li>
+            </ol>
+        </section>
+
+        <!-- 狩猎技巧 -->
+        <section id="tips">
+            <h2>📜 狩猎技巧</h2>
+            <dl>
+                <dt>弱点攻击</dt>
+                <dd>每只怪物都有弱点部位，例如雄火龙的翅膀和尾巴。</dd>
+                <dt>环境利用</dt>
+                <dd>利用<mark>可破坏地形</mark>增加战斗优势。</dd>
+                <dt>捕获怪物</dt>
+                <dd>用陷阱捕获怪物，获得更多奖励点数。</dd>
+            </dl>
+        </section>
+
+        <!-- 加入行动 -->
+        <section id="join">
+            <h2>🎉 加入狩猎 ✨ 趣味小知识</h2>
+            <p>立即加入狩猎行动，和你的伙伴一起<mark>组队</mark>出发，成为真正的猎人！</p>
+            <p>你知道吗？灭尽龙的角由<mark>生物陶瓷</mark>构成，这使它既坚硬又轻巧。</p>
+            <p>此外，游戏中的生态系统是基于<ruby>现实动物行为<rp>(</rp><rt>Real Animal Behavior</rt><rp>)</rp></ruby>模拟的，怪物之间甚至会互相争斗。</p>
+            <a class="btn" href="https://www.monsterhunter.com/wilds/" target="_blank">立即预约怪猎新作-Monster Hunter Wilds！</a>
+        </section>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        <p>© 2024 猎人协会 | 适配平台：PC, PS4, Xbox One</p>
+    </footer>
+</body>
+</html>
